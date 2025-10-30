@@ -1,0 +1,139 @@
+[
+  {
+    "description": "    Realizar o login no site www.saucedemo.com",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-no-saucedemo;login-com-sucesso",
+        "keyword": "Esquema do Cenario",
+        "line": 11,
+        "name": "Login com Sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1126376600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "preencho o \"standard_user\" e a \"secret_sauce\"",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72954499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "clico em Login",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110329300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 8,
+            "name": "vou para a pagina \"inventory\" e vejo \"Product\"",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2077547199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-no-saucedemo;login-com-sucesso",
+        "keyword": "Esquema do Cenario",
+        "line": 12,
+        "name": "Login com Sucesso",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 5,
+            "name": "que estou na pagina de login",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93443699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 6,
+            "name": "preencho o \"visual_user\" e a \"secret_sauce\"",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71140400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 7,
+            "name": "clico em Login",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94545600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Entao ",
+            "line": 8,
+            "name": "vou para a pagina \"inventory\" e vejo \"Product\"",
+            "match": {
+              "location": "file:\\C:\\Iterasys\\SauceDemoPO145\\features\\support\\steps\\login.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2044397500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-no-saucedemo",
+    "line": 2,
+    "keyword": "Funcionalidade",
+    "name": "Login no SauceDemo",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

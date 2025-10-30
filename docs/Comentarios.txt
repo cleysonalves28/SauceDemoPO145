@@ -1,0 +1,21 @@
+Abordagens:
+Gravadores: Selenum IDE e Playwrigth Inspector/Codegen
+--> 1 arquivo: .spec.js
+Script Simples
+-- > 1 arquivo: .spec.js
+
+ // para projetos de longas duração podemos utilizar uma das formas abaixo.
+
+Script Estruturado
+--> 1 arquivo + N arquivo (funçoes uteis ou compartilhadas)
+Script BDD/Gherkin
+--> 3 arquivos:
+- negócio (critério de aceitação): .feature (funcionalidade)
+- steps (passos da automação):     .js
+- hook (gatilho/configuração):     .js
+-- > Framework Cucumber
+
+Script Page Objects/Page Factory
+- mapeamento de páginas/telas: 1 arquivo para cada
+- automação (único ou BDD)
+
